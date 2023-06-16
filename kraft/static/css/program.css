@@ -1,0 +1,137 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+
+
+
+
+#central-su	{
+	width:100%;
+	min-height:467px;
+	background:#2a1966;
+	margin-top:0px;
+	padding-top:200px;
+}
+
+
+
+#second-su	{
+	width:100%;
+	min-height:367px;
+	background:#fff;
+	margin-top:0px;
+}
+
+
+.title-su	{
+	font-family: 'Montserrat';
+	font-size:56px;
+	font-weight:400;
+	color:#adebbb;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+
+
+.tekst-su	{
+	font-family: 'Montserrat';
+	font-size:36px;
+	font-weight:400;
+	color:#adebbb;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+
+
+#central-gu	{
+	width:100%;
+	min-height:467px;
+	background:#66192a;
+	margin-top:0px;
+	padding-top:200px;
+}
+
+
+
+#second-gu	{
+	width:100%;
+	min-height:367px;
+	background:#fff;
+	margin-top:0px;
+}
+
+
+.title-gu	{
+	font-family: 'Montserrat';
+	font-size:56px;
+	font-weight:400;
+	color:#adebbb;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+
+
+.tekst-gu	{
+	font-family: 'Montserrat';
+	font-size:36px;
+	font-weight:400;
+	color:#adebbb;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+
+
+#central-hu	{
+	width:100%;
+	min-height:467px;
+	background:#19662f;
+	margin-top:0px;
+	padding-top:200px;
+}
+
+
+
+#second-hu	{
+	width:100%;
+	min-height:367px;
+	background:#fff;
+	margin-top:0px;
+}
+
+
+.title-hu	{
+	font-family: 'Montserrat';
+	font-size:56px;
+	font-weight:400;
+	color:#adebbb;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+
+
+.tekst-hu	{
+	font-family: 'Montserrat';
+	font-size:36px;
+	font-weight:400;
+	color:#adebbb;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}

@@ -1,0 +1,705 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+@import url(http://fonts.googleapis.com/css?family=Play);
+@import url(http://fonts.googleapis.com/css?family=Darker+Grotesque);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic);
+
+@import url(http://fonts.googleapis.com/css?family=IBM+Plex+Sans);
+@import url(http://fonts.googleapis.com/css?family=Yrsa);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,500,700,900&amp;subset=latin-ext);
+
+@import url(http://fonts.googleapis.com/css?family=Saira:400,100,200,300,500,600,700&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,100,200,300,500,600,700&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,700&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Poppins:400,100,200,300,500,600,700,800,900&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,100,200,300,500,600,700,800,900&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,100,200,300,500,700&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,200,300,500,700,800,900&amp;subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Spectral:400,200,500,700&amp;subset=latin-ext);
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,100,300,500,700,900&amp;subset=latin-ext);
+
+
+
+
+
+body { 
+    
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif; 
+	height:100%;
+	background-color:#fff;
+	
+}
+
+
+
+
+h1 { 
+    font-family: 'Poppins'; sans-serif; font-weight:500;
+	font-size: 86px;
+	margin-left:5%;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:80px;
+	color:#041e49;
+}
+
+h3 { 
+    font-family: 'Cinzel'; 
+	font-weight:500;
+	text-align:left;
+	margin-left:5%;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size: 20px;
+	padding-top: 0px;
+	color:#0a51c2;
+	
+}
+
+h5 {
+	color: #fff;
+	font-size:16px;
+	margin-right:80px
+	
+}
+
+
+a {
+    text-decoration:none;
+    color:#5993bb;
+}
+
+a:hover {
+    color:#77b6e2;
+}
+
+a.button, input[type="submit"] {
+    color:#fff;
+    background:#5993bb;
+    border-radius:4px;
+    padding:10px 20px;
+    font-size:14px;
+    border:0;
+}
+
+a.button.light {
+    color:#666;
+    background:#ededed;
+}
+
+.text-left {
+    text-align:left;
+}
+
+.text-right {
+    text-align:right;
+}
+
+
+form p label, form p input {
+    float:left;
+    clear:both;
+}
+
+form p label {
+    font-size:14px;
+    padding-bottom:4px;
+}
+
+form p input {
+    width:300px;
+    font-size:13px;
+    margin-bottom:10px;
+    padding:10px 12px;
+    border:0;
+    background:#efefef;
+    color:#666;
+    border-radius:4px;
+}
+
+ul.errorlist {
+   float:left;
+   color:#ff0000;
+   clear:both;
+   font-size:13px;
+   margin:0; 
+   padding:0;
+}
+
+
+#supheader {
+	height: 50px;
+    background:#fff;
+    color:#4287F5;
+    padding:0px 0px;
+    overflow:auto;
+}
+
+header {
+    padding:0px 0px 0px 0px;
+	margin-top: 0px;
+    font-size:14px;
+    background:#fff;
+    color:;
+	border-top:1px solid #b6d1fb;
+    border-bottom:0px solid #999;
+    overflow:auto;
+}
+
+header .logo {
+	width:30%;
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+	background:none;
+    color:#000;
+    font-size:30px;
+    margin-left:18%;
+	padding:35px;
+}
+
+header ul.menu {
+	width:40%;
+	background:;
+    list-style:none;
+    float:right;
+    margin-top:26px;
+	margin-right:5%;
+    padding:0 0 0 0;
+	font-family: 'Poppins', sans-serif; font-weight:400;
+	font-size:14px;
+}
+header ul.menu li {
+	width:;
+	list-style:none;
+    float:right;
+    padding:10px 20px 10px 20px;
+	color:#5593f6;
+}
+
+header ul.menu li.selected a  {
+    color:#d77e5b;
+    font-weight:bold;
+}
+
+header ul.menu li.selected a:hover {
+    color:#8f70db;
+    font-weight:bold;
+}
+
+header a {
+    color:#4b29a3;
+}
+
+
+
+header a:hover {
+    color:#8f70db;
+	border-bottom: 2px solid #2FBC57;
+	-webkit-animation-name: kolormenuhover;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+header .user {
+    float:right;
+    padding-top:10px;
+}
+
+
+#haf1 {
+		width: 30%;
+		height:120px;
+		background: ;
+		float: left;
+}
+
+#haf2 {
+		width: 70%;
+		height:;
+		background: ;
+		float: left;
+}
+
+#supheader .cart {
+    float:right;
+    padding-top:1px;
+}
+
+footer {
+                background-color: #031430;
+                color: #fff;
+                padding: 25px 50px 10px 30px;
+                font-size: 14px;
+                text-align: center;
+}
+
+
+section.intros {
+                height: 0px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+
+section.image {
+                height: 0px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+			
+			
+
+			
+
+            section.text {
+                max-width: 1270px;
+                height:870px;
+                padding: 0px 0;
+                position: relative;
+				background:;
+				margin-top:0px;
+				
+				
+            }
+
+            section.text .icon {
+                position: absolute;
+				height:870px;
+                width:50%;        
+				color: #ac9cb7;
+				background#222;
+            }
+
+            section.text.left .icon {
+				height:870px;
+                width:50%;
+				color: #ac9cb7;
+				background:;
+				margin-left:50%
+            }
+
+            section.text .icon .fa {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 200px;
+            }
+
+            section.text .takitekst {
+                margin-left: 50%;
+				margin-top: ;
+				margin-bottom: 0px;
+				padding: 8px 0px 0px 0px;
+				color: #fff;
+				background:#572FBC;
+				float:;
+				width:50%;
+				height:936px;
+				font-family: 'Open Sans';
+				font-weight: 600;
+				border-top:0px solid #19662f;
+				border-left:0px solid #19662f;
+				border-radius:;
+            }
+
+            section.text.left .takitekst1{
+                margin-top: -30px;
+                margin-right: 50%;
+				background:#ebbfad;
+				color:#572FBC;
+				height:870px;
+				
+            }
+
+            section.text h2 {
+                font-size: 36px;
+                font-weight: normal;
+				color: #fff;
+}
+
+section.text h3 {
+                font-size: 18px;
+                font-weight: normal;
+				color: #fff;
+}
+
+
+#front-home {
+                height: 670px;
+                background-repeat: no-repeat;
+                background-position: top;
+                background-size: cover;
+                background-attachment: fixed;
+				background-color:;
+				
+				
+				
+            }
+
+
+
+
+
+
+
+/***Sekcja front-home***/
+
+
+
+
+
+
+#central-grid {
+				background: rgba(10, 13, 18, .9);/*(87, 47, 188, .3), (146, 75, 40, .3), (188, 158, 47, .5), (188, 47, 78, .5), (188, 87, 47, .5), (10, 13, 18, .9), (27, 35, 49, 1)*/
+				float:;
+				width:100%;
+				height:670px;
+                color: ;
+                padding: 0px 0px 0px 0px;
+                font-size: 48px;
+                text-align: right;
+				
+				
+}
+
+
+
+#top-left {
+				background-color:;
+				float:left;
+				width:20%;
+				margin-left:3%;
+				height:60px;
+                color: ;
+                padding: 20px 0px 0px 0px;                               
+}
+
+
+
+/***Sekcja-1***/						/***Sekcja-1***/							/***Sekcja-1***/						/***Sekcja-1***/
+
+
+
+
+
+
+
+
+
+
+
+
+#section1 {
+    width:100%;
+	height:670px;
+    
+	background-color:#fff;
+	padding-top:100px;
+	
+	
+	
+}
+
+.first-ul {
+	float:left;
+	width:40%;
+	height:;
+	background-color:;
+	margin-top:130px;
+	padding-left:;
+	margin-left:2%;
+	list-style:none;
+	
+}
+
+
+.first-ul-li {
+	float:left;
+	list-style:none;
+	margin-right:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Sekcja-2 ***/								/*** Sekcja-2 ***/                             /*** Sekcja-2 ***/                         /*** Sekcja-2 ***/
+
+
+
+
+
+
+
+
+
+
+
+
+#section2 {
+	float:;
+    max-width: 100%;
+	height:670px;
+    padding: 0 0 0 0;
+	background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+	background-color:#fff;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Sekcja-3 ***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section3 {  
+	max-width: 100%;
+    height:870px;
+    padding:;
+    position:;
+	background:#fff;
+	margin-top:;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Logo ***/
+
+
+
+
+
+
+#logs-central-grid {
+	float:;
+	width:280px;
+	height:30px;
+	background:;
+    color:#111;
+	padding: 0px 0px 0px 0px;
+    font-size: 18px;
+    text-align: left;
+	margin-left: 8%;
+	margin-top: ;
+	font-family: 'Cinzel' ;
+}
+
+#be {
+	float:left;
+	width:50px;
+	height:20px;
+	background:;
+    color: #4287F5;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+	font-weight:500;
+	text-shadow: ;
+}
+
+
+#te {
+	float:left;
+	width:50px;
+	height:20px;
+	background:;
+    color:#4287F5;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+	font-weight:500;
+}
+
+#kwa {
+	float:right;
+	width:60px;
+	height:30px;
+	background:;
+    color:#2fbc4e;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+}
+
+#k1 {
+	float:left;
+	width:17px;
+	height:30px;
+	background:#4b29a3;
+    color:#0011bd;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+}
+
+#w1 {
+	float:left;
+	width:7px;
+	height:30px;
+	background:#ebbfad;
+    color:#00d43c;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+}
+
+#a1 {
+	float:left;
+	width:21px;
+	height:30px;
+	background:#2FBC57;
+    color:#00d43c;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+}
+
+
+#ge {
+	float:left;
+	width:80px;
+	height:20px;
+	background:;
+    color: #4287F5;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+	font-weight:500;
+	
+}
+
+
+
+/*** Animacje ***/
+
+
+
+
+
+
+
+
+@-webkit-keyframes kolo {
+	0% { margin-top:100px; }
+	18% { margin-top:0px; }
+	50% { margin-top:390px; }
+	100% { margin-top:100px; }
+	
+}
+
+@-webkit-keyframes kolor {
+	0% {background-color: #ebbfad; }
+	33% {background-color: #572FBC; }
+	
+	66% {background-color: #2FBC57; }
+	100% {background-color: #ebbfad; }
+	
+	
+}
+
+@-webkit-keyframes ramka {
+	0% { height:450px; }
+	10% { height:0px; }
+	50% { height:450px; }
+	75% { height:50px; }
+	100% { height:50px; }
+	
+}
+
+
+@-webkit-keyframes koloramkal {
+	0% {border-left-color: #111;  border-top-color: #111; }
+	33% {border-left-color: #572FBC; border-top-color: #572FBC;}
+	
+	66% {border-left-color: #2FBC57; border-top-color: #2FBC57;}
+	100% {border-left-color: #111; border-top-color: #111; }
+	
+	
+}
+
+@-webkit-keyframes koloramkar {
+	0% {border-right-color: #111;  border-bottom-color: #111; }
+	33% {border-right-color: #572FBC; border-bottom-color: #572FBC;}
+	
+	66% {border-right-color: #2FBC57; border-bottom-color: #2FBC57;}
+	100% {border-right-color: #111; border-bottom-color: #111; }
+	
+	
+}
+
+@-webkit-keyframes kolormenuhover {
+	0% {border-bottom-color: #ebbfad; }
+	33% { border-bottom-color: #572FBC;}
+	
+	66% { border-bottom-color: #2FBC57;}
+	100% { border-bottom-color: #ebbfad; }
+	
+	
+}

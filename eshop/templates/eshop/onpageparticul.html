@@ -1,0 +1,185 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport content="width=device-width, initial-scale=1.0">
+  
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,100,200,300,500,600,700&amp;subset=latin-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif+Caption:400,700&amp;subset=latin-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,200,300,500,700,800,900&amp;subset=latin-ext">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,100,200,300,500,700&amp;subset=latin-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,100,200,300,500,600,700,800,900&amp;subset=latin-ext">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin-ext">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,100,200,300,500,600,700,800,900&amp;subset=latin-ext">
+  
+  <link href="{% static "css/particular.css" %}" rel="stylesheet">
+  <link href="{% static "css/menu_g.css" %}" rel="stylesheet">
+  <link href="{% static "css/program.css" %}" rel="stylesheet">
+  <link href="{% static "css/presentatos.css" %}" rel="stylesheet">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="/static/js/jquery-3.6.0.min.js"></script>
+  <script src="/static/js/infoslide.js"></script>
+  <script src="/static/js/infoslide_fob.js"></script>
+  <script src="/static/js/menuex.js"></script>
+   <script src="/static/js/pokazkasl1.js"></script>
+   
+  
+	
+</head>
+<body>
+
+
+
+<div id="header">
+		<div id="haf1">
+		<span class="logo">
+		<a href="{% url "onpage_start" %}">
+		
+			<div id="logs"> 
+				<div id="be">Blue</div> 
+				<div id="te">to</div>  
+				<div id="ge">Green</div> 
+				<div id="kwa"> 
+					<div id="s1"></div> 
+					<div id="s1"></div> 
+					<div id="s1"></div>
+				</div>
+			</div>
+			</a>
+		</span>
+		</div>
+		
+		<div id="menu-konten-particular">
+			<svg id="menu-icon" class="jebano" height="40" width="40" >
+				<g id="g-menu"  style="fill:none; stroke:#777 ">
+				<path class="path1" stroke-width="2" d="M5 10 1215 0" />
+				<path stroke-width="2" d="M5 18 1215 0" />
+				<path stroke-width="2" d="M5 26 l215 0" />
+				</g>
+			</svg>
+		</div>
+		
+</div> 
+ 
+
+<div id="menu-expoz">
+		
+		<div id="menu-konten-kontakt-out">
+			<svg id="menu-icon-out" class="wyjebano" height="40" width="40">
+				<g  fill="none" stroke="#777">
+				<path stroke-width="2" d="M5 5 1215 1000" />
+   
+				<path stroke-width="2" d="M5 35 1215 -1000" />
+				</g>
+			</svg>
+		</div>
+		
+		<div id="menu-expoz-left">
+			<div class="list-menu1">
+			<a href="{% url "about" %}">o nas</a>
+			</div>
+			<div id="list-menu2-n2" class="list-menu2">
+			programy
+			</div>
+			<div class="list-menu2">
+			<a href="{% url "kontakt" %}">kontakt</a>
+			</div>
+			<div class="list-menu2">
+			<a href="{% url "post_list" %}">blog</a>
+			</div>
+			<div class="list-menu2">
+			<a href="{% url "login" %}">logowanie</a>
+			</div>
+			<div id="list-menu2-n3" class="list-menu2">
+			finansowanie
+			</div>
+			<div class="list-menu2">
+			<a href="#"></a>
+			</div>
+		
+		
+		</div>
+		
+		<div id="menu-expoz-right">
+			<ul id="ul-menu-right-programy">
+				<li id="li-menu-right1-programy" class="list-menu3">
+					<a href="{% url "startupsite" %}">start-up</a>
+				</li>
+				<li id="li-menu-right2-programy"  class="list-menu3">
+					<a href="{% url "growupsite" %}">grow-up</a>
+				</li>
+				<li id="li-menu-right3-programy"  class="list-menu3">
+					<a href="{% url "hungupsite" %}">hang-up</a>
+				</li>
+			
+			</ul>
+			
+			<ul id="ul-menu-right-finansowanie">
+				<li id="li-menu-right1-finansowanie" class="list-menu3">
+					<a href="{% url "finansinvest" %}">inwestycyjne</a>
+				</li>
+				<li id="li-menu-right2-finansowanie" class="list-menu3">
+					<a href="{% url "finansobrot" %}">obrotowe</a>
+				</li>
+				<li id="li-menu-right3-finansowanie" class="list-menu3">
+					<a href="{% url "finansleasing" %}">leasing</a>
+				</li>
+				<li id="li-menu-right4-finansowanie" class="list-menu3">
+					<a href="{% url "finansdotacje" %}">dotacje</a>
+				</li>
+				<li id="li-menu-right5-finansowanie" class="list-menu3">
+					<a href="{% url "finansfundusz" %}">fundusze</a>
+				</li>
+				<li id="li-menu-right6-finansowanie" class="list-menu3">
+					<a href="{% url "restrukturyzacje" %}">restrukturyzacje</a>
+				</li>
+			
+			</ul>
+		</div>
+		
+		
+</div> 
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+ 
+ 
+<script src="/static/js/comps.js"></script>
+<script src="/static/js/sliderec.js"></script>
+
+
+<script>
+
+(function () {
+  new Slider("#slider .slide").options({
+      prev: "#slider nav button.arrow-prev",
+      next: "#slider nav button.arrow-next",
+      nav: "#slider nav.dots span",
+	  animation: "fade"
+  }).init();
+})();
+
+</script>
+
+ 
+
+
+</body>
+
+</html>

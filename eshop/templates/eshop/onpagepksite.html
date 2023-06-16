@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport content="width=device-width, initial-scale=1.0"
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin-ext">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+  <link href="{% static "css/pksite.css" %}" rel="stylesheet">
+  <link href="{% static "css/presentatos.css" %}" rel="stylesheet">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <script src="/static/js/infoslide.js"></script>
+   <script src="/static/js/pokazkasl1.js"></script>
+   
+  
+	
+</head>
+<body>
+ 
+ 
+<div id="header">
+		<div id="haf1">
+		<span class="logo">
+		<a href="{% url "onpage_start" %}">
+		
+			<div id="logs"> 
+				<h1> Przemek </h1>
+			</div>
+			</a>
+		</span>
+		</div>
+		
+		<div id="menu-konten-particular">
+			<svg id="menu-icon" class="jebano" height="40" width="40"  attributeType="css">
+	<g id="g-menu"  style="fill:none; stroke:#777 ">
+    <path class="path1" stroke-width="2" d="M5 10 1215 0" />
+    <path stroke-width="2" d="M5 18 1215 0" />
+    <path stroke-width="2" d="M5 26 l215 0" />
+	</g>
+			</svg>
+			</div>
+		
+</div> 
+ 
+ 
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+ 
+ 
+  <script src="/static/js/comps.js"></script>
+ <script src="/static/js/sliderec.js"></script>
+<script>
+
+
+
+(function () {
+  new Slider("#slider .slide").options({
+      prev: "#slider nav button.arrow-prev",
+      next: "#slider nav button.arrow-next",
+      nav: "#slider nav.dots span",
+	  animation: "fade"
+  }).init();
+})();
+
+
+
+</script>
+
+ 
+
+
+</body>
+
+</html>

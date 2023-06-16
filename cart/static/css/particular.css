@@ -1,0 +1,611 @@
+
+
+
+
+
+
+/***                  Sekcja front-finans                               ***/
+
+
+
+
+
+
+
+
+
+/*Sekcja 2*/					/*Sekcja 2*/          /*Sekcja 2*/                    /*Sekcja 2*/                 /*Sekcja 2*/               /*Sekcja 2*/
+
+
+
+
+
+
+
+
+
+/***Logo***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Kontakt ***/
+
+
+#front-kont {
+	width:100%;
+	height:670px;
+	background:#111;
+}
+
+
+
+
+#left-kont {
+	float:left;
+	width:60%;
+	height:670px;
+	background:#083c91;
+    color: #ddd6f5;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+	font-weight:400;
+}
+
+
+#right-kont {
+	float:left;
+	width:40%;
+	height:670px;
+	background:#083c91;
+    color: #fff;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+	font-weight:400;
+}
+
+
+
+#haf-kont11 {
+		width: 200px;
+		height:;
+		float: left;
+		background:;
+		margin-top:100px;
+		margin-left:45%;
+		
+}
+
+
+
+.logol {
+	width:100%;
+    font-family: 'Ubuntu', sans-serif;
+    float:right;
+	background:;
+    color:#000;
+    font-size:30px;
+    margin-left:0%;
+	padding:5px 0 5px 0px;
+	border-top: 1px solid #2f1966;
+}
+
+
+.logol:hover {
+	
+    font-family: 'Ubuntu', sans-serif;
+   
+	background:;
+    color:#000;
+    border-top: 1px solid #572FBC;
+	border-bottom: 1px solid #2FBC57;
+	border-left:1px solid #572FBC ;
+	border-right: 1px solid #2FBC57;
+    margin-right:;
+	padding:5px 0px 5px 0;
+	box-shadow: ;
+}
+
+
+#kontakt-form {
+	float:left;
+	width:350px;
+	height:;
+	background:;
+    color: #2fBC57;
+	padding: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: left;
+	font-weight:400;
+}
+
+
+#haf33 {
+		width: 431px;
+		height:;
+		float: left;
+		background:;
+		margin-top:50px;
+		margin-bottom:20px;
+		margin-left:45%;
+		border-bottom: 1px solid #2fBC57;
+}
+
+
+#haf22 {
+		width: 431px;
+		height:60px;
+		float: left;
+		background:;
+		margin-bottom:38px;
+		margin-left:45%;
+		
+}
+
+#sup22-kont {
+				background:;
+				
+				float:left;
+				clear:left;
+				width:300px;
+				min-height:30px;
+                color:;
+				margin-top:180px;
+				margin-left:10%;
+                padding: 0px 0 0px 0px;
+                font-size: 24px;
+                text-align: left;
+				font-family: 'Poppins';
+				font-weight: 400;
+				font-style: normal;
+				border-bottom: 0px solid #999;
+				
+}
+
+#sup23-kont {
+				
+				float:left;
+				clear:left;
+				width:300px;
+				height:100px;
+                color: ;
+				margin-top:10px;
+				margin-left:10%;
+                padding: 0px 0 0px 0px;
+                font-size: 16px;
+                text-align: left;
+				font-family: 'Poppins';
+				font-weight: 300;
+				font-style: normal;
+				border-bottom: 0px solid #999;
+				background:;
+		 		
+}
+
+#sup24-kont {
+				background: ;
+				float:left;
+				clear:left;
+				width:300px;
+				height:100pxpx;
+                color:;
+				margin-top:140px;
+				margin-left:10%;
+                padding: 0px 0 0px 0px;
+                font-size: 16px;
+                text-align: left;
+				font-family: 'Poppins';
+				font-weight: 300;
+				font-style: normal;
+				border-bottom: 0px solid #999;
+				
+}
+
+#sup25-kont {
+				background: url('/static/img/.jpg');
+				
+				float:;
+				width:98%;
+				height:380px;
+                color: ;
+				margin-top:30px;
+				margin-left:-25px;
+                padding: 0px 0 0px 0px;
+                font-size: 20px;
+                text-align: left;
+				font-family: 'Poppins';
+				font-weight: 300;
+				font-style: normal;
+				border-bottom: 0px solid #999;
+				
+}
+
+
+h1.logowy {
+    border-bottom:;
+    padding:0 0 0px 0;
+    margin:0px 0 0px 0;
+	color:#2fBC57;
+	text-align:center;
+	font-weight: 100;
+	font-size:32px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+h1.odp1 {
+    border-bottom:;
+    padding:0 0 0px 0;
+    margin:80px 80px 0px 80px;
+	color:#2fBC57;
+	text-align:center;
+	font-weight: 100;
+	font-size:28px;
+}
+
+p.adres1 {
+    border-bottom:;
+    margin:0px 0 0px 0;
+	color:;
+	text-align:left;
+	font-weight: 100;
+	
+}
+
+
+
+form {
+	float:;
+    overflow:auto;
+	background:;
+	height:;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+form p {
+    width:100%;
+    overflow:auto;
+	
+}
+
+label {
+    float:left;
+    clear:;
+    color:;
+    margin-bottom:0px;
+	margin-right:;
+	font-family: 'Noto Sans', sans-serif; font-weight:100;
+	font-size:12px;
+	background:;
+}
+input, textarea {
+    clear:;
+    float:right;
+	width:330px;
+	height:40px;
+    margin:0px;
+    background:#adebbb;
+	color:#666;
+	padding:6px 10px;
+	border:2px solid #2fBC57;
+	border-radius:5px;
+	font-size:14px;
+	font-family: 'Noto Sans', sans-serif; font-weight:100;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#bbadeb;
+    color:#777;
+    padding:0px;
+	margin-top:20px;
+	margin-bottom:0px;
+	width:351px;
+	height:60px;
+    font-size:14px;
+	border-bottom:none;
+	border-radius:5px;
+    text-transform:uppercase;
+	
+	
+}
+
+input[type=submit]:hover {
+	background:#ebadbb;
+	color:#777;
+}
+
+
+
+
+/*** Animacje ***/
+
+
+
+
+
+
+
+
+@-webkit-keyframes kolo {
+	0% { margin-top:100px; }
+	18% { margin-top:0px; }
+	50% { margin-top:390px; }
+	100% { margin-top:100px; }
+	
+}
+
+@-webkit-keyframes kolor {
+	0% {background-color: #ebbfad; }
+	33% {background-color: #572FBC; }
+	
+	66% {background-color: #2FBC57; }
+	100% {background-color: #ebbfad; }
+	
+	
+}
+
+@-webkit-keyframes ramka {
+	0% { height:450px; }
+	10% { height:0px; }
+	50% { height:450px; }
+	75% { height:50px; }
+	100% { height:50px; }
+	
+}
+
+
+@-webkit-keyframes koloramkal {
+	0% {border-left-color: #111;  border-top-color: #111; }
+	33% {border-left-color: #572FBC; border-top-color: #572FBC;}
+	
+	66% {border-left-color: #2FBC57; border-top-color: #2FBC57;}
+	100% {border-left-color: #111; border-top-color: #111; }
+	
+	
+}
+
+@-webkit-keyframes koloramkar {
+	0% {border-right-color: #111;  border-bottom-color: #111; }
+	33% {border-right-color: #572FBC; border-bottom-color: #572FBC;}
+	
+	66% {border-right-color: #2FBC57; border-bottom-color: #2FBC57;}
+	100% {border-right-color: #111; border-bottom-color: #111; }
+	
+	
+}
+
+@-webkit-keyframes kolormenuhover {
+	0% {border-bottom-color: #ebbfad; }
+	33% { border-bottom-color: #572FBC;}
+	
+	66% { border-bottom-color: #2FBC57;}
+	100% { border-bottom-color: #ebbfad; }
+	
+	
+}
+
+
+
+
+/***  Pokazka ***/
+
+
+
+#iconic {
+	width:50%;
+	height:250px;
+	background:;
+	margin-top:120px;
+	margin-left:80px;
+}
+
+#iconic-in {
+	background:;
+}
+
+
+#pasek {
+	height:220px;
+	background-color: #666;
+}
+
+#fotka1 {
+	float:left;
+	height:218px;
+	width:25%;
+	background-color:#777;
+}
+
+#fotka2 {
+	float:left;
+	height:218px;
+	width:25%;
+	background-color:#777;
+}
+
+#fotka3 {
+	float:left;
+	height:218px;
+	width:25%;
+	background-color:#777;
+}
+
+#fotka4 {
+	float:left;
+	height:218px;
+	width:25%;
+	background-color:#777;
+}
+
+#fotka5 {
+	float:left;
+	height:218px;
+	width:25%;
+	background-color:#777;
+}
+
+#fotka6 {
+	float:left;
+	height:218px;
+	width:25%;
+	background-color:#777;
+}
+
+#img-fot1 {
+	height:217px;
+	width:99%;
+	
+}
+
+#img-fot2 {
+	height:217px;
+	width:99%;
+	
+}
+
+#img-fot3 {
+	height:217px;
+	width:99%;
+	
+}
+
+#img-fot4 {
+	height:217px;
+	width:99%;
+	
+}
+
+#img-fot5 {
+	height:217px;
+	width:99%;
+	
+}
+
+#img-fot6 {
+	height:217px;
+	width:99%;
+	
+}
+
+#gogo {
+	width:100px;
+	height:60px;
+	background-color:#fd12ca;
+	font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/***                Dupość                   Dupość                  Dupość                 Dupość                   Dupość   ***/
+
+
+
+
+
+
+
+
+#prik {
+	width:100%;
+	min-height:500px;
+	background: #ccc;
+	
+}
+
+#prikos1 {
+	width:91%;
+	min-height: 150px;
+	background: #555;
+	font-size: 52px;
+	
+}
+
+#prikos2 {
+	
+	width:91%;
+	min-height: 370px;
+	background: #777;
+	font-size: 36px;
+	padding:0px 0px 60px 60px;
+}
+
+#ronkos:hover {
+	height:370px;
+}
+
+#ronkos {
+	position:absolute;
+	float:;
+	width:170px;
+	height: 170px;
+	background: #554333;
+	font-size: 36px;
+	margin-left:60px;
+	z-index: 2;
+}
+
+#pipcia1 {
+	position:absolute;
+	float:;
+	width:170px;
+	height: 170px;
+	background: #f6619c;
+	font-size: 36px;
+	z-index: 3;
+}
+
+#pipcia2 {
+	position:absolute;
+	float:;
+	width:170px;
+	height: 170px;
+	background: #36139f;
+	font-size: 36px;
+	margin-left:160px;
+	z-index: 1;
+}
+
+#pipcia3 {
+	position:absolute;
+	
+	float:;
+	width:170px;
+	height: 170px;
+	background: #96199f;
+	font-size: 36px;
+	margin-top:0px;
+	padding:50px;
+	
+}
+
+
+#mik {
+	height: 300px;
+	background: #aaa;
+	
+}
+
+
+
+

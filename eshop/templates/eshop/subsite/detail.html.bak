@@ -1,0 +1,168 @@
+{% extends "mainkraft/basesite.html" %}
+
+
+{% block title %} 
+
+{% if product %} {{product.nazwa}} {% else %} Eshop {% endif %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<div id="product-detail"  >
+
+
+	<div id="product-detail-left">
+	
+		<div id="inner-box">
+			<img id="img-detail" src="{{ product.image.url }}">
+		</div>
+	
+	</div>
+	
+	<div id="product-detail-right">
+		<div id="product-title">
+		
+			<h3 class="h3-category-product"><a class="a-eshop-cat" href="{% url "eshop_start_by_category" product.category.slug %}"> {{ product.category }} </a></h3>
+	
+			<h1 class="h1-product-title">{{product.technicalia.zamiennik}} </h1>
+			<p>{{product.vendor_code}} </p>
+			
+		
+		</div>
+		
+		<div id="product-opis">
+		
+			 {{product.opis}} 
+		
+		</div>
+		
+		<div id="product-action">
+			<p class="cena"> {{ product.cena }} zł </p>
+			<form action="{% url "cart_add" product.id %}" method="post"
+				{{ cart_product_form }}
+				{% csrf_token %}
+				<input type="submit" value="Dodaj do koszyka" attrs={'size': '20'}>
+			</form>
+		</div> 
+		
+		<div id="product-choose">
+			<div id="product-choose-1"></div>
+			<div id="product-choose-2"></div>
+			<div id="product-choose-3"></div>
+			<div id="product-choose-4"></div>
+		</div>
+			
+	</div>
+	<div id="pik">
+		<div id="pik-l">
+			<div id="pik-title-l">Zamienniki</div>
+			{{tech.zamiennik}}
+		</div>
+		
+		<div id="pik-r">
+			<div id="pik-title-r">Zastosowanie</div>
+			{{tech.zastosowanie}}
+		</div>
+	
+	</div>
+</div>
+
+
+<div id="other-detail">
+
+<div id="other-detail-r">
+
+	<div id="inner-box-1">
+		
+			
+
+			<div id="slider" class="slides">
+				<div class="slide">
+					<figure>
+						<img class="hidden" src="/static/img/dollar.jpg" alt="Pierwszy slide">
+			
+					</figure>
+					<div class="slide-description">
+						<h3 class="slide-header"></h3>
+						<p></p>
+					</div>
+	
+				</div>
+  
+			<div class="slide">
+				<figure>
+					<img class="hidden" src="/static/img/kasa.jpg" alt="Drugi slide">
+				</figure>
+				<div class="slide-description">
+					<h3 class="slide-header"></h3>
+					<p></p>
+				</div>
+			</div>
+  
+			<div class="slide">
+				<figure>
+					<img class="hidden" src="/static/img/mebel2.jpg" alt="Trzeci slide">
+				</figure>
+				<div class="slide-description">
+					<h3 class="slide-header"></h3>
+					<p></p>
+				</div>
+			</div>
+	
+			<div class="slide">
+				<figure>
+					<img class="hidden" src="/static/img/mebel1.jpg" alt="Czwarty slide">
+				</figure>
+				<div class="slide-description">
+					<h3 class="slide-header"></h3>
+					<p></p>
+				</div>
+			</div>
+  
+			<div class="slide">
+				<figure>
+					<img class="hidden" src="/static/img/monety.jpg" alt="Piąty slide">
+				</figure>
+				<div class="slide-description">
+					<h3 class="slide-header"></h3>
+					<p> </p>
+				</div>
+			</div>
+  
+			<div class="slide">
+				<figure>
+					<img class="hidden" src="/static/img/ristorante.jpg" alt="Szósty slide">
+				</figure>
+				<div class="slide-description">
+					<h3 class="slide-header">Masz problemy? ZUS, US?</h3>
+					<p>Tutaj też znajdziemy rozwiązanie.</p>
+				</div>
+			</div>
+
+			<nav role="pagination" class="dots">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</nav>
+			<nav role="pagination" class="arrows">
+				<button class="arrow-prev">❮</button>
+			</nav>
+			<nav role="pagination" class="arrows">
+				<button class="arrow-next">❯</button>
+			</nav>
+		</div>
+	
+		</div>
+
+
+
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,715 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+
+
+
+
+
+#front-eshop {
+	width: 100%;
+	margin-bottom: 10px;
+	min-height:;
+}
+
+
+
+#category-front {
+	width: 90%;
+	margin-left:5%;
+	margin-top: ;
+	margin-bottom:10px;
+	padding: 0 0 0 5%;
+	
+}
+
+
+
+img {
+	float:left;
+	width: 300px;
+	height: 200px;
+	vertical-align:middle;
+	
+}
+
+
+.h1-eshop {
+	text-align:;
+	margin-left:0px;
+	margin-bottom:40px;
+	font-variant:;
+	padding:;
+}
+
+
+
+
+#h3-eshop {
+	text-align:;
+	margin-left:0px;
+	margin-bottom:0px;
+	margin-top:200px;
+	color:;
+}
+
+
+
+
+.eshop-category-ul {
+	float:left;
+	width:100%; 
+	height:;
+	background-color:#ff33hh;
+	margin-top:0px;
+	margin-bottom:10px;
+	padding:0;
+	margin-left:;
+	list-style:none;
+	
+}
+
+
+.category-ul-li {
+	float:left;
+	list-style:none;
+	margin-right:;
+	background:#000066;
+	color:ff0000;
+	min-height:150px;
+	
+}
+
+
+
+
+.first-ul-li {
+	float:left;
+	list-style:none;
+	margin-right:;
+	margin-bottom:10px;
+	min-width:;
+	background:#aaa;
+	
+}
+
+
+
+.first-div {
+	float:left;
+	height:40px;
+	min-width:240px;
+	margin-right:0px;
+	background:#000066;
+	color:#fff;
+	overflow:;
+	padding:10px 0 0 0;
+	text-align: center;
+}
+
+
+
+
+
+
+.item {
+	display:inline-block;
+	width: 300px;
+	height: 325px;
+	background:;
+	margin-right:20px;
+	margin-top:20px;
+	border: 2px solid #797986;
+	border-radius:;
+	padding:0px;
+	box-shadow:3px 3px 8px #ccc;
+}
+
+
+
+#item-div-1 {
+	width:280px;
+	height:30px;
+	padding:10px 5px 0px 5px;
+	margin-top:200px;
+	margin-left:5px;
+	border-bottom: 1px solid #797986;
+}
+
+
+#item-div-2 {
+	width:280px;
+	height:30px;
+	text-align:right;
+	font-size:16px;
+	color:#000066;
+	margin-top:0px;
+	margin-left:5px;
+	padding:10px 5px 0px 5px;
+	border-bottom: 1px solid #797986;
+	
+}
+
+
+#item-div-3 {
+	width:280px;
+	height:30px;
+	text-align:;
+	font-size:16px;
+	color:#797986;
+	margin-top:0px;
+	margin-left:5px;
+	padding:10px 5px 0px 5px;
+	border-bottom: 0px solid #797986;
+	
+}
+
+
+#item-div-2-span {
+	float:left;
+	color:#797986;
+}
+
+
+
+.cat-prod {
+	margin-top:;
+	margin-left:0px;
+	
+}
+
+
+#product-eshop {
+	width: 80%;
+	min-height:300px;
+	background: ;
+	margin-top:10px;
+	padding-left:10%;
+	padding-right:10%
+}
+
+
+
+
+
+/* detail                                            detail                                                detail                */
+
+
+
+
+
+
+
+
+
+#product-detail {
+	width: 100%;
+	float:left;
+	min-height:600px;
+	background:;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+
+
+
+#product-detail-left {
+	float:left;
+	width: 50%;
+	min-height:630px;
+	background:;
+}
+
+
+
+
+#inner-box {
+	float:left;
+	width: 70%;
+	min-height:520px;
+	background:;
+	margin-left:20%;
+	margin-top:80px;
+	border:1px solid #666;
+	padding:5px;
+	
+}
+
+
+
+
+#img-detail {
+	width: 100%;
+	height:520px
+}
+
+
+
+
+#product-detail-right {
+	float:right;
+	width: 50%;
+	min-height:630px;
+	background: ;
+	margin-bottom:5px;
+	
+}
+
+
+#product-title {
+	float:left;
+	width: 80%;
+	min-height:120px;
+	background:;
+}
+
+
+
+#product-opis {
+	float:left;
+	width: 80%;
+	min-height:200px;
+	background:;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px solid #999;
+	border-top:1px solid #999;
+	font-family: 'Roboto'; sans-serif; font-weight:400;
+}
+
+
+#product-action {
+	float:left;
+	width: 80%;
+	min-height:100px;
+	background:;
+}
+
+
+#product-choose {
+	float:left;
+	width: 80%;
+	min-height:150px;
+	background: ;
+	margin-top:16px;
+	border-top:1px solid #666;
+}
+
+
+#product-choose-1 {
+	float:left;
+	width: 49.7%;
+	min-height:50px;
+	background:;
+	
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	background: ;
+}
+
+#product-choose-2 {
+	float:left;
+	width: 50%;
+	min-height:50px;
+	background:;
+	
+	border-bottom:1px solid #999;
+	background:;
+}
+
+
+
+#product-choose-3 {
+	float:left;
+	width: 49.7%;
+	min-height:50px;
+	background:;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	background:;
+}
+
+
+
+#product-choose-4 {
+	float:left;
+	width: 50%;
+	min-height:50px;
+	background:;
+	border-bottom:1px solid #999;
+	background:;
+}
+
+
+.h1-product-title {
+	font-size:36px;
+	line-height:38px;
+	margin-left:0%;
+	margin-top:100px;
+}
+
+
+
+.p-product-opis {
+	font-size:14px;
+	line-height:20px;
+	margin-left:0%;
+	margin-top:60px;
+	color:#666;
+}
+
+
+.h3-category-product {
+	margin-left:0%;
+	margin-top:60px;
+}
+
+
+
+
+
+#inner-box-1 {
+	float:left;
+	width: 100%;
+	min-height:320px;
+	background:#f436a1;
+	margin-left:;
+	margin-top:;
+}
+
+
+.image-product {
+	width: 320px;
+	min-height:260px;
+	margin-left:60px;
+	margin-top:30px;
+}
+	
+
+
+.cena {
+	font-family:'Ubuntu';
+	font-size:24px;
+	font-weight:700;
+	text-align:right;
+	padding-bottom:20px;
+	border-bottom:1px solid #999;
+	
+}
+
+
+.h3-first {
+	text-align:center;
+	color:#fff;
+	
+}
+
+
+a.a-eshop-cat {
+	color:#000080;
+}
+
+a:hover.a-eshop-cat {
+	color:#8f70db;
+}
+
+a.a-eshop {
+	color: #797986;
+}
+	
+a:hover.a-eshop {
+	color: #8080ff;
+	font-size:17px;
+}	
+
+
+
+
+#other-detail {
+	float:left;
+	width:100%;
+	min-height:400px;
+	margin-top:50px;
+	margin-bottom:;
+	background:#ccc;
+}
+
+
+#other-detail-l {
+	float:left;
+	width:50%;
+	height:400px;
+	margin-top:50px;
+	margin-bottom:50px;
+	background:#ccc;
+}
+
+
+#other-detail-r {
+	float:right;
+	width:50%;
+	min-height:400px;
+	
+	background:#ccc;
+}
+
+
+
+#detail-section2 {
+	width:100%;
+	height:150px;
+	float:left;
+}
+
+#pik {
+	width:80%;
+	min-height:200px;
+	float:left;
+	margin-left:10%;
+	margin-top:100px;
+	margin-bottom:100px;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+
+
+#pik-l{
+	width:48%;
+	min-height:200px;
+	float:left;
+	margin-left:;
+	background:;
+	color:#000;
+	padding-top:30px;
+	padding-bottom:10px;
+	padding-left:1%;
+	padding-right:1%;
+	
+}
+
+
+
+#pik-title-l{
+	width:140px;
+	height:200px;
+	float:left;
+	margin-left:;
+	background:;
+	color:#000;
+	padding-top:;
+	padding-bottom:10px;
+	
+}
+
+
+#pik-r {
+	width:48%;
+	min-height:200px;
+	float:right;
+	margin-left:;
+	background:;
+	padding-top:30px;
+	padding-bottom:10px;
+	padding-left:1%;
+	padding-right:1%;
+	
+}
+	
+	
+	
+#pik-title-r{
+	width:140px;
+	height:200px;
+	float:left;
+	margin-left:;
+	background:;
+	color:#000;
+	padding-top:;
+	padding-bottom:10px;
+	
+}
+
+
+
+
+
+
+
+/* maszyny                             maszyny                                 maszynu                             */
+
+
+
+
+
+
+
+
+#front-maszyny-eshop {
+	width: 100%;
+	margin-bottom: 10px;
+	min-height:;
+}
+
+
+
+#maszyny-front {
+	width: 90%;
+	margin-left:5%;
+	margin-top: ;
+	margin-bottom:10px;
+	padding: 0 0 0 5%;
+	
+}
+
+
+
+img .foto-m {
+	float:left;
+	width: 300px;
+	height: 200px;
+	vertical-align:middle;
+	
+}
+
+
+.h1-maszyny {
+	text-align:;
+	margin-left:0px;
+	margin-bottom:40px;
+	font-variant:;
+	padding:;
+}
+
+
+
+
+#h3-maszyny {
+	text-align:;
+	margin-left:0px;
+	margin-bottom:0px;
+	margin-top:200px;
+	color:;
+}
+
+
+
+
+
+
+.item-maszyny {
+	display:inline-block;
+	width: 300px;
+	height: 325px;
+	background:;
+	margin-right:20px;
+	margin-top:20px;
+	border: 2px solid #797986;
+	border-radius:;
+	padding:0px;
+	box-shadow:3px 3px 8px #ccc;
+}
+
+
+
+#maszyny-item-div-1 {
+	width:280px;
+	height:30px;
+	padding:10px 5px 0px 5px;
+	margin-top:200px;
+	margin-left:5px;
+	border-bottom: 1px solid #797986;
+}
+
+
+#item-div-2 {
+	width:280px;
+	height:30px;
+	text-align:right;
+	font-size:16px;
+	color:#000066;
+	margin-top:0px;
+	margin-left:5px;
+	padding:10px 5px 0px 5px;
+	border-bottom: 1px solid #797986;
+	
+}
+
+
+#item-div-3 {
+	width:280px;
+	height:30px;
+	text-align:;
+	font-size:16px;
+	color:#797986;
+	margin-top:0px;
+	margin-left:5px;
+	padding:10px 5px 0px 5px;
+	border-bottom: 0px solid #797986;
+	
+}
+
+
+#item-div-2-span {
+	float:left;
+	color:#797986;
+}
+
+
+
+.cat-prod {
+	margin-top:;
+	margin-left:0px;
+	
+}
+
+
+.maszyny-eshop {
+	width: 80%;
+	min-height:400px;
+	background: ;
+	margin-top:10px;
+	padding-left:10%;
+	padding-right:10%;
+	background:#bbb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** cart                      cart                                      cart                                         cart ***/
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+{% extends "mainkraft/basesite.html" %}
+{% load static %}
+
+{% block title %} 
+
+{% if category %} {{category.name}} {% else %} E-sklep {% endif %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<div id="front-eshop" >
+
+
+	<div id="category-front">
+
+	<h3 id="h3-eshop"> EXPLORUJ <a class="a-eshop" href="{% url "eshop_maszyny" %}"> MASZYNY </a></h3>
+	
+	 
+	<h1 class="h1-eshop"> {% if category %}{{category.nazwa.upper}}{% else %}ESHOP{% endif %}</h1>
+	 
+
+	<ul class="eshop-category-ul">
+
+		<li class="first-ul-li"  {% if not category %} {% endif %}>  
+			<a class="a-eshop" href="{% url "eshop_start" %}">
+			<div class="first-div">
+			<h3 class="h3-first">
+				{{ c.nazwa }} 
+				 ESHOP
+			</h3>
+			</div>
+			 <a/>
+		</li>
+	
+		{% for c in categories %}
+		<li class="first-ul-li"  {% if category_slug == c.slug %} {% endif %}>
+			<a href="{{ c.get_absolute_url }}"> 
+			<div class="first-div">
+			<h3 class="h3-first">
+				{{ c.nazwa }}	
+			</h3>
+			</div>
+			</a>
+		</li>
+		{% endfor %}
+	
+	</ul>
+	</div>
+	
+
+</div>
+
+
+
+
+<div id="product-eshop" >
+
+
+<h3 class="cat-prod">{% if category %}{{category.nazwa}}{% else %} PRODUCTY {% endif %}</h3>
+{% for product in products %}
+	
+	<div class="item">
+		<a href="{{ product.get_absolute_url }}">
+			<img src="{{ product.image.url }}">
+		</a>
+		<div id="item-div-1">
+		<a class="a-eshop" href="{{ product.get_absolute_url }}"> {{ product.nazwa }} </a> 
+		</div>
+		<div id="item-div-2">
+		<span id="item-div-2-span"> Cena</span>{{ product.cena }} zł  
+		</div>
+		<div id="item-div-3">
+		{% if product.available == True %}Dostępny {% else %} Na zamówienie {% endif %}
+		</div>
+
+	</div>
+{% endfor %} 
+
+</div>
+
+<div id="section2" >
+
+Taaa...
+
+
+</div>
+
+
+
+
+<section id="section3" >
+
+Taaa...
+
+
+</section>
+
+
+
+{% endblock %}

@@ -1,0 +1,8 @@
+*.pyc
+*~
+__pycache__
+kraftys
+db.sqlite3
+postgres
+/static
+.DS_Store

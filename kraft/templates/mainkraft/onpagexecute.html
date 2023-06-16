@@ -1,0 +1,96 @@
+{% load static %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport content="width=device-width, initial-scale=1.0"
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&amp;subset=latin-ext">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+  <link href="{% static "css/btgexecute.css" %}" rel="stylesheet">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  
+	
+</head>
+
+
+
+<body>
+
+<header>
+		<div id="haf1">
+			<span class="logo">
+			<a href="{% url "onpage_start" %}">
+		
+			<div id="logs"> 
+				<div id="be">Blue</div> 
+				<div id="te">to</div>  
+				<div id="ge">Green</div> 
+				<div id="kwa"> 
+					<div id="s1"></div> 
+					<div id="s1"></div> 
+					<div id="s1"></div>
+				</div>
+			</div>
+			</a>
+			</span>
+		</div>
+		<div id="haf2">
+			<span class="user">
+			{% if request.user.is_authenticated %}
+				Zalogowany {{ request.user.first_name }}!
+				<a href="{% url "logout" %}">Wyloguj</a>
+			{% else %}
+				<a href="{% url "login" %}">Zaloguj</a>
+			{% endif %}
+			</span>
+		</div>
+		
+</header>
+
+
+   
+ 
+
+
+<ul class="menus">
+      <li {% if section == "dashboard" %}class="selected"{% endif %}>
+        <a href="#">Alfa</a>
+      </li>
+      <li {% if section == "proj_list" %}class="selected"{% endif %}>
+        <a href="#">Projekty</a>
+      </li>
+      <li {% if section == "persona_list" %}class="selected"{% endif %}>
+        <a class="menu" href="#">Kontakty</a>
+      </li>
+	  <li {% if section == "firma_list" %}class="selected"{% endif %}>
+        <a href="#">Firmy</a>
+      </li>
+	  <li {% if section == "zadania" %}class="selected"{% endif %}>
+        <a href="#">Zadania</a>
+      </li>
+	   <li {% if section == "interakcje" %}class="selected"{% endif %}>
+        <a href="#">Interakcje</a>
+      </li>
+	  	  
+</ul>
+
+
+  
+ 
+ 
+<div id="content">
+
+    {% block content %}
+    {% endblock %}
+	
+</div>
+
+ 
+
+</body>
+
+</html>

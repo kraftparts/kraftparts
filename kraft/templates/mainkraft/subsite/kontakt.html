@@ -1,0 +1,77 @@
+{% extends "mainkraft/basesite.html" %}
+{% block title %} Kontakt{% endblock %}
+ 
+ {% block content %}
+
+
+<section id="front-kont">
+	
+	
+	<div id="left-kont">
+		
+		
+		
+		{% if odp %}  <h1 class="odp1"> {{ odp }} </h1> {% else %} 
+		<div id="kontakt-form">
+			<div id="haf33">
+				<h1 class="logowy">Napisz do nas</h1> 
+				 
+			</div>
+			<div id="haf22">
+				<form action="." method="post">
+				{{ kontakt_form.as_p }}
+				{% csrf_token %}
+				<input type="submit" value="Wyślij formularz">
+				</form>
+			</div>
+		</div>	
+		{% endif %}
+	</div>
+	
+	<div id="right-kont">
+	
+		
+		
+		<div id="sup22-kont">
+			Kraftparts sp. z o. o.
+		</div>
+		
+		<div id="sup23-kont">
+			
+			
+				<p class="adres1">Ul. Wolności 7</p>
+				<p class="adres1">50-500 Wrocław</p>
+				<p class="adres1">Polska</p><br>
+				<p class="adres1">NIP 8999999999 </p>
+		</div>
+		
+		<div id="sup24-kont">
+			
+			
+				<p class="adres1">Tel: +48 999 999 999</p>
+				<p class="adres1">Mail: office.kraftparts@gmail.com</p>
+			
+		</div>
+		
+		<div id="haf-kont11">
+				<a href="{% url "main_start" %}">
+				
+		
+		
+					<div id="logs-central-grid"> 
+						<div id="be">Kraftparts</div> 
+						<div id="te"></div>  
+						<div id="ge"></div> 
+				
+					</div>
+			
+				
+				</a>
+		</div>
+	
+	</div>
+	
+
+</section>
+
+{% endblock %}

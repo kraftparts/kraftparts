@@ -1,0 +1,100 @@
+{% extends "mainkraft/basesite.html" %}
+{% load static %}
+
+{% block title %} 
+
+{% if category %} {{category.name}} {% else %} E-sklep {% endif %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<div id="front-maszyny-eshop" >
+
+
+	<div id="maszyny-front">
+
+	<h3 id="h3-maszyny"> EXPLORUJ</h3>
+	
+	 
+	<h1 class="h1-maszyny"> {% if category %}{{category.nazwa.upper}}{% else %}ESHOP{% endif %}</h1>
+	
+	
+	<div class="maszyny-eshop" >
+
+
+
+	
+	<div class="item-maszyny">
+		<a href="{{ product.get_absolute_url }}">
+			<img src="{{ product.image.url }}">
+		</a>
+		<div id="maszyny-item-div-1">
+		<a class="a-eshop" href="{{ product.get_absolute_url }}"> {{ product.nazwa }} </a> 
+		</div>
+		<div id="item-div-2">
+		<span id="item-div-2-span"> Cena</span>{{ product.cena }} zł  
+		</div>
+		<div id="item-div-3">
+		{% if product.available == True %}Dostępny {% else %} Na zamówienie {% endif %}
+		</div>
+
+	</div>
+ 
+
+	</div>
+
+	
+	</div>
+	
+
+</div>
+
+
+
+
+<div id="maszyny-eshop" >
+
+
+
+	
+	<div class="item-maszyny">
+		<a href="{{ product.get_absolute_url }}">
+			<img src="{{ product.image.url }}">
+		</a>
+		<div id="item-div-1">
+		<a class="a-eshop" href="{{ product.get_absolute_url }}"> {{ product.nazwa }} </a> 
+		</div>
+		<div id="item-div-2">
+		<span id="item-div-2-span"> Cena</span>{{ product.cena }} zł  
+		</div>
+		<div id="item-div-3">
+		{% if product.available == True %}Dostępny {% else %} Na zamówienie {% endif %}
+		</div>
+
+	</div>
+ 
+
+</div>
+
+<div id="section2" >
+
+Taaa...
+
+
+</div>
+
+
+
+
+<section id="section3" >
+
+Taaa...
+
+
+</section>
+
+
+
+{% endblock %}
