@@ -85,10 +85,10 @@ DATABASES = {
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'kraftdb',
-        'USER': 'conectuser',
+        'USER': 'masteruser',
         'PASSWORD': 'put139ni8kzas',
-        'HOST': 'localhost',
-        'PORT': 5432,
+        'HOST': 'kraftparts-3257.postgres.pythonanywhere-services.com',
+        'PORT': 13257,
     }
 }
 
